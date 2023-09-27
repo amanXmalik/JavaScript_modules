@@ -10,3 +10,9 @@ const otherNum = 123.8966
 console.log(otherNum.toPrecision(3));
 
 
+const arr1 = ["a" , "b" , "c" , "d" , "e" , "f"];
+const arr2 = ["g"]
+const arr3 = [...arr1 , ...arr2]
+console.log(arr3)
+
+
