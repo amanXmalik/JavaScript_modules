@@ -15,4 +15,32 @@ const arr2 = ["g"]
 const arr3 = [...arr1 , ...arr2]
 console.log(arr3)
 
+function addtwonumbers (num1 , num2){
+    return num1+num2
+}
+const ab = addtwonumbers(3,4)
+
+console.log(ab);
+
+function calculateprice(...num1){
+    
+    return num1
+}
+
+
+console.log(calculateprice(100,200,34,343,495,934,101001));
+// arrow function
+
+const addtwo= (num1 , num2 ) =>{
+    return num1+num2
+}
+console.log(addtwo(3,4));
+
+
+//IIFE
+
+(function A(){
+    console.log(`DB CONNECTED`);
+})();
+
 
